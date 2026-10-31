@@ -9,7 +9,7 @@ This repository contains the code for our NeurIPS 2026 accepted paper, *Adaptive
 ## Table of Contents
 
 - [Requirements](#requirements)
-- [Framework](#Framework overview)
+- [Framework](#framework-overview)
 - [Reproducing Results](#reproducing-results)
 - [Citation](#citation)
 
