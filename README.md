@@ -9,8 +9,8 @@ This repository contains the code for our NeurIPS 2026 accepted paper, *Adaptive
 ## Table of Contents
 
 - [Requirements](#requirements)
+- [Framework](#framework overview)
 - [Reproducing Results](#reproducing-results)
-- [Reference](#reference)
 - [Citation](#citation)
 
 
@@ -19,6 +19,10 @@ This repository contains the code for our NeurIPS 2026 accepted paper, *Adaptive
 
 To install the required dependencies, refer to the `environment.yml` file.
 
+
+## Framework overview
+
+![Framework overview](images/framework.png)
 
 
 ## Reproducing Results
