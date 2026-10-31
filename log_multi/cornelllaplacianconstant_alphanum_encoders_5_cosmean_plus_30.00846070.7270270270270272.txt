@@ -1,0 +1,137 @@
+"GRACE_multi_pde_selected_path.py --dataset cornell --add_source --hidden_dim 2048 --epoch 50 --num_encoders 5 --time 30 --lr 0.01 --function laplacian --block constant_alpha --runtime 10 --classifier_time 10 --classifier_epochs 2000 --cuda 3 --method predictor --classifier_lr 0.01 --classifier_decay 0.0001 --batch_norm --step_size 10 --loss cosmean_plus --a1 0.05 --a2 0.25 --a3 0.6 --a4 0.1 --lambda 0.001 --dropout 0 --alpha_lr_2 0.1 --alpha_lr_3 2e-2 --alpha_lr_4 5e-2 --alpha_lr_5 1e-4"
+test_acc: 0.7324324324324325
+test_std: 0.032990690853334316
+alpha_values: 0.138115, 0.018529, 0.000100
+
+test_acc: 0.7189189189189189
+test_std: 0.05296194038450113
+alpha_values: 0.135957, 0.018314, 0.000100
+
+test_acc: 0.7243243243243244
+test_std: 0.05378310470846592
+alpha_values: 0.135957, 0.018314, 0.000100
+
+test_acc: 0.7324324324324325
+test_std: 0.04750917792228902
+alpha_values: 0.135957, 0.018314, 0.000100
+
+test_acc: 0.727027027027027
+test_std: 0.045945945945945935
+alpha_values: 0.135957, 0.018314, 0.000100
+
+test_acc: 0.7216216216216217
+test_std: 0.045305553011460026
+alpha_values: 0.135957, 0.018314, 0.000100
+
+test_acc: 0.7378378378378379
+test_std: 0.04990860895302535
+alpha_values: 0.135957, 0.018314, 0.000100
+
+test_acc: 0.7216216216216218
+test_std: 0.05135135135135133
+alpha_values: 0.135957, 0.018314, 0.000100
+
+test_acc: 0.7243243243243243
+test_std: 0.04954135886438745
+alpha_values: 0.135957, 0.018314, 0.000100
+
+test_acc: 0.7297297297297296
+test_std: 0.04834741572972516
+alpha_values: 0.135957, 0.018314, 0.000100
+
+test_acc_mean: 0.7270270270270272
+test_acc_std: 0.005669237017135944
+{
+  "classifier_epochs": 2000,
+  "batch_size": 1,
+  "patience": 500,
+  "l2_coef": 0.0,
+  "drop_prob": 0.0,
+  "dataset": "cornell",
+  "num_hop": 0,
+  "cuda": 3,
+  "seed": 1234,
+  "classifier_lr": 0.01,
+  "classifier_decay": 0.0001,
+  "classifier_seed": 10,
+  "classifier_time": 10,
+  "classifier": null,
+  "hidden_dim": 2048,
+  "proj_dim": 256,
+  "fc_out": false,
+  "input_dropout": 0.4,
+  "dropout": 0.0,
+  "batch_norm": true,
+  "optimizer": "adam",
+  "lr": 0.01,
+  "decay": 0.0005,
+  "epoch": 50,
+  "alpha_dim": "sc",
+  "no_alpha_sigmoid": false,
+  "beta_dim": "sc",
+  "block": "constant_alpha",
+  "function": "laplacian",
+  "use_mlp": false,
+  "add_source": true,
+  "time": 30.0,
+  "augment": false,
+  "method": "predictor",
+  "step_size": 10.0,
+  "max_iters": 100,
+  "adjoint_method": "adaptive_heun",
+  "adjoint": false,
+  "adjoint_step_size": 1,
+  "tol_scale": 1.0,
+  "tol_scale_adjoint": 1.0,
+  "ode_blocks": 1,
+  "max_nfe": 1000,
+  "no_early": false,
+  "earlystopxT": 3,
+  "max_test_steps": 100,
+  "beltrami": false,
+  "leaky_relu_slope": 0.2,
+  "attention_dropout": 0.0,
+  "heads": 4,
+  "attention_norm_idx": 0,
+  "attention_dim": 16,
+  "mix_features": false,
+  "reweight_attention": false,
+  "attention_type": "scaled_dot",
+  "square_plus": false,
+  "data_norm": "gcn",
+  "self_loop_weight": 1.0,
+  "runtime": 10,
+  "loss": "cosmean_plus",
+  "random_splits": false,
+  "num_encoders": 4,
+  "alpha_ode": 1.0,
+  "alpha_lr_1": 0.0001,
+  "alpha_lr_2": 0.001,
+  "alpha_lr_3": 0.0002,
+  "alpha_lr_4": 0.0005,
+  "alpha_lr_5": 0.0001,
+  "alpha_lr_6": 0.0001,
+  "alpha_lr_7": 0.0001,
+  "alpha_lr_8": 0.0001,
+  "alpha_lr_9": 0.0001,
+  "alpha_lr_10": 0.0001,
+  "a1": 0.05,
+  "a2": 0.25,
+  "a3": 0.6,
+  "a4": 0.1,
+  "a5": 0.5,
+  "a6": 0.5,
+  "a7": 0.5,
+  "a8": 0.5,
+  "a9": 0.5,
+  "a10": 0.5,
+  "lambda": 0.001,
+  "reaction_term": "bspm",
+  "beta_diag": false,
+  "alpha_ode_1": 1.0,
+  "alpha_ode_2": 0.10778401046991348,
+  "alpha_ode_3": 0.012697922065854073,
+  "alpha_ode_4": 9.999999747378752e-05,
+  "alpha_ode_5": 0.01,
+  "num_nodes": 183
+}
